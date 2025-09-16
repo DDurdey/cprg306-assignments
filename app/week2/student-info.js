@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function StudentInfo() {
     return (
@@ -6,9 +7,9 @@ function StudentInfo() {
             <p>Daniel Durdey</p>
             <p>
                 My GitHub repository:{' '}
-                <a href="https://github.com/DDurdey/cprg306-assignments" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/DDurdey/cprg306-assignments" target="_blank" rel="noopener noreferrer">
                     https://github.com/DDurdey/cprg306-assignments
-                </a>
+                </Link>
             </p>
         </div>
     );

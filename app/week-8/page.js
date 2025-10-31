@@ -18,8 +18,8 @@ export default function Page() {
 
     function cleanItemName(name) {
         return name
-            .split(",")[0] // remove ", 1 kg" etc
-            .replace(/[^\p{L}\p{N}\s]/gu, "") // remove emojis and symbols
+            .split(",")[0]
+            .replace(/[^\p{L}\p{N}\s]/gu, "")
             .trim()
             .toLowerCase();
     }
